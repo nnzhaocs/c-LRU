@@ -7,7 +7,7 @@
 #include <semaphore.h>
 
 #define KEY_SIZE 50
-#define VALUE_SIZE 100
+#define VALUE_SIZE 4096
 
 /*定义LRU缓存的缓存单元*/
 typedef struct cacheEntryS{
